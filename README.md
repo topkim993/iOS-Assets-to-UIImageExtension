@@ -10,7 +10,7 @@ It runs in Python.
         components = snake_str.split('_')
         return components[0] + ''.join(x.title() for x in components[1:]).replace(" ","")
 
-    folderPath = "/Users/jeong/Documents/racos/kiosk/racossystem_kiosk_ios/Kiosk/Assets.xcassets/Image"
+    folderPath = "/Users/jeong/Documents/IOSPROJECT/Assets.xcassets/Image"
     folderList = os.listdir(folderPath)
 
     for filename in folderList:
